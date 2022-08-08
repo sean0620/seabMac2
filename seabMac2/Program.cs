@@ -28,9 +28,9 @@
 
 
 
-Console.WriteLine("輸入寬的長度 ：");
+Console.WriteLine("輸入寬的長度 :");
 var width = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine("輸入長的長度 ：");
+    Console.WriteLine("輸入長的長度 :");
 var height = Convert.ToInt32(Console.ReadLine());
 
     var orientation = width > height ? ImageOrientation.Landscape : ImageOrientation.Portrait;
